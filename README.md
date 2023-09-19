@@ -1,10 +1,10 @@
-# FRONTEND (JavaScript and React)
+## FRONTEND (JavaScript and React)
 
-## Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -13,7 +13,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## TODO
+### TODO
 
 - Create a form with two fields: First Name and Last Name, and a Submit button.
 
@@ -21,20 +21,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 - Display a "Submission Successful" message upon successful form submission.
 
+---
 
 
+## Backend (Java and Spring Boot)
 
-# Backend (Java and Spring Boot)
+### Getting Started with [Spring Boot](https://start.spring.io)
 
-## Getting Started with [Spring Boot](start.spring.io)
-
-Project: Maven
-Java: 17
-Dependency:
+- Project: Maven
+- Java: 17
+- Dependency:
 h2
 spring-boot-starter-data-jpa
 
-## TODO
+### TODO
 
 - Develop a RESTful API that provides endpoints to save a user and fetch a user by ID.
 
