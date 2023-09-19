@@ -4,14 +4,23 @@ function App() {
   const [firstName, setfirstName] = useState("");
   const [lastName, setlastName] = useState("");
 
-  function Submit(e) {
+  async function Submit(e) {
     e.preventDefault();
-    // console.log(firstName);
-    // console.log(lastName);
     if (firstName === "" || lastName === "") {
       alert("Please fill in all boxes!");
     } else {
-      alert("Submission Successful");
+      await fetch(`http://localhost:8081/users`,{
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json"
+        },
+        body:JSON.stringify({
+          firstName,
+          lastName
+        })
+      }).then(()=>{
+        alert("Submission Successful");
+      });
     }
   }
 
